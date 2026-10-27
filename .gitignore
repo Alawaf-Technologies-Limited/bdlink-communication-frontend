@@ -1,0 +1,75 @@
+# Dependencies
+node_modules/
+
+# Build / preview / PWA cache
+dist/
+dist-ssr/
+dev-dist/
+*.local
+
+# Local tooling / virtualenvs
+.venv-tools/
+.venv/
+venv/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# TypeScript / tooling caches
+*.tsbuildinfo
+.turbo/
+.cache/
+coverage/
+playwright-report/
+test-results/
+discovery/
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Env secrets
+.env
+.env.*
+!.env.example
+
+# Discovery working artifacts (keep docs + inventory summary)
+discovery/pdf-hires/
+discovery/pdf-pages/
+discovery/pdf-text/
+discovery/content-inventory/pages/
+discovery/content-inventory/assets/
+discovery/content-inventory/api-*.json
+discovery/content-inventory/extracted.json
+discovery/content-inventory/sitemap-*.xml
+discovery/content-inventory/*.html
+discovery/content-inventory/Bdlink-logo.png
+
+# Keep discovery documentation tracked
+!discovery/docs/
+!discovery/content-inventory/CONTENT-INVENTORY.md
+
+# Staging / intermediate asset downloads (final copies live under public/assets/*)
+public/assets/*-src/
+public/assets/partners/partners-grid.png
+public/assets/board/board-row.png
+public/assets/heroes/home-hero-from-pdf.jpg
+public/assets/heroes/home-hero-skyline.jpg
+public/assets/heroes/network-map-from-pdf.jpg
+public/assets/heroes/contact-strip.jpg
+public/assets/heroes/_*.jpg
+public/assets/heroes/_*.png
