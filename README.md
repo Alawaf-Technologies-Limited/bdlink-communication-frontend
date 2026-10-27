@@ -51,10 +51,6 @@ Open the printed local URL (default `http://localhost:5173`).
 
 - `new-ui-ux-srs/Bdlink_Proposal2_Vodafone_Preview-1.pdf` — authoritative UI layouts
 - `new-ui-ux-srs/bdlink-logo-sheet-A4.pdf` — brand colours / logo rules
-- Live site content inventory: `discovery/content-inventory/CONTENT-INVENTORY.md`
-- Requirements checklist: `discovery/docs/REQUIREMENTS-CHECKLIST.md`
-- Visual spec: `discovery/docs/VISUAL-SPEC.md`
-- QA report: `discovery/docs/QA-REPORT.md`
 
 ## Contact form / API
 
@@ -74,6 +70,4 @@ No backend is specified in the proposal. Submissions are validated client-side a
 3. Ensure the host serves `index.html` for SPA fallback routes
 4. Prefer HTTPS so installation and service workers work in production browsers
 
-## Assumptions & limitations
 
-See `discovery/docs/ASSUMPTIONS.md`.
